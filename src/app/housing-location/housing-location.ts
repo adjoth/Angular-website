@@ -15,9 +15,11 @@ export interface HousingLocationInfo {
   selector: 'app-housing-location',
   imports: [],
   template: `
-    <p>
-      housing-location works!
-    </p>
+    <section class="location">
+    <img class="listing-photo">
+    <h2 class="listing-heading"></h2>
+    <p class="listing-location"></p>
+    </section>
   `,
   styles: ``,
   styleUrls: ['./housing-location.css']
